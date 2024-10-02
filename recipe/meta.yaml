@@ -29,6 +29,7 @@ requirements:
     - dateparser
     - docker-py
     - git
+    - gitpython
     - h5py
     - matplotlib-base
     - pandas
