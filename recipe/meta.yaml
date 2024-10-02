@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/floatcsep-{{ version }}.tar.gz
-  sha256: 286b2cb3f191394f235c4b1d01cb5fc614753f96ee087e3688224c6452df0254
+  sha256: c5e452eb3277cefe75810a92888d87e4899ee0428e5e83b88d3bc4958c10f9bc
 
 build:
   entry_points:
