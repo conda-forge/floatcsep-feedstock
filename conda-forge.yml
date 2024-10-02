@@ -4,3 +4,27 @@ github:
 conda_build:
   error_overlinking: true
 conda_forge_output_validation: true
+
+bot:
+  autotick: true
+bot_automerge: true
+build_platform:
+  - linux_64
+  - osx_64
+  - win_64
+channels:
+  - conda-forge
+rerender:
+  github-actions: true
+  azure-pipelines: true
+  circle: true
+  travis: false
+python_versions:
+  - 3.9
+  - 3.10
+  - 3.11
+
+# Extra metadata
+extra:
+  maintainers:
+    - pabloitu
