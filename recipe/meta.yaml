@@ -13,7 +13,8 @@ build:
   entry_points:
     - floatcsep = floatcsep.commands.main:floatcsep
   noarch: python
-  script: {{ PYTHON }} -m pip install .
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: {{ PYTHON }} -m pip install markdown-pdf
   number: 0
 
 requirements:
