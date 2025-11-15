@@ -41,7 +41,9 @@ requirements:
     - seaborn
     - pytables
     - xmltodict
-
+    - weasyprint
+    - markdown-it-py
+    
 test:
   imports:
     - floatcsep
