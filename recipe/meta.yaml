@@ -32,6 +32,7 @@ requirements:
     - gitpython
     - h5py
     - matplotlib-base
+    - panel
     - pandas
     - pycsep
     - pyshp
