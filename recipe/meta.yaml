@@ -1,5 +1,5 @@
 {% set name = "floatcsep" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/floatcsep-{{ version }}.tar.gz
-  sha256: ad72651a02f8ec3fdf7ca1ade2fbe37a11262b28b846cc42539a698ca74edab4
+  sha256: f416d37b4413a45d0978c1ca7e6349b21426db8b3e05c0d338b758c33e84d063
 
 build:
   entry_points:
@@ -44,7 +44,7 @@ requirements:
     - xmltodict
     - weasyprint
     - markdown-it-py
-    
+
 test:
   imports:
     - floatcsep
