@@ -29,9 +29,10 @@ requirements:
     - pycsep
     - dateparser
     - docker-py
+    - git
     - gitpython
     - h5py
-    - matplotlib
+    - matplotlib-base
     - panel
     - pip
     - pyshp
