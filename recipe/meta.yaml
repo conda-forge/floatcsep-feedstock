@@ -26,6 +26,7 @@ requirements:
   run:
     - python >={{ python_min }},<3.12
     - numpy
+    - pycsep
     - dateparser
     - docker-py
     - git
@@ -33,8 +34,7 @@ requirements:
     - h5py
     - matplotlib-base
     - panel
-    - pandas
-    - pycsep
+    - pip
     - pyshp
     - pyyaml
     - requests
