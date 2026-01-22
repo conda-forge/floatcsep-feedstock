@@ -26,15 +26,14 @@ requirements:
   run:
     - python >={{ python_min }},<3.12
     - numpy
+    - pycsep
     - dateparser
     - docker-py
-    - git
     - gitpython
     - h5py
-    - matplotlib-base
+    - matplotlib
     - panel
-    - pandas
-    - pycsep
+    - pip
     - pyshp
     - pyyaml
     - requests
