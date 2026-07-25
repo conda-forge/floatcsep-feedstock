@@ -1,5 +1,5 @@
 {% set name = "floatcsep" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/floatcsep-{{ version }}.tar.gz
-  sha256: 65dd8eb3029c13b9bac7c71dcf1157e5011597e8b49eac20040de4449b9f378e
+  sha256: 317b3f134ddbf028e67126dccdc09b02166d603552c83f66ccf7df1979c791b6
 
 build:
   entry_points:
